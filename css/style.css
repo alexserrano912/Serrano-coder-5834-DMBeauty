@@ -473,9 +473,7 @@ footer div:nth-child(2) {
 @media screen and (max-width:1000px) {
     .galeria {
         display: flex;
-        /* Aplica display flex al contenedor de imágenes */
         flex-direction: column;
-        /* Alinea las imágenes en una columna */
     }
 
     .galeria img {
@@ -493,10 +491,10 @@ footer div:nth-child(2) {
     }
 }
 
-@media screen and (max-width:550px) {
+/* @media screen and (max-width:550px) {
 
     .galeria {
 
         width: 61%;
     }
-}
+} */

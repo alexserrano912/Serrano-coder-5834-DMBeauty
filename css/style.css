@@ -9,6 +9,7 @@ p::selection {
     background-color: blueviolet;
     color: white;
 }
+/*General-Navbar*/
 
 header {
     background-color: #9b53ff;
@@ -50,6 +51,7 @@ header img {
     border: 0;
 }
 
+/*General-Titulos (h1,h2,h3)*/
 
 h1 {
     text-decoration: underline;
@@ -60,6 +62,25 @@ h1 {
     font-weight: 800;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+h2 {
+    text-align: center;
+    color: #0000009c;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+    text-decoration-color: #0000009c;
+}
+h3 {
+    color: #8c39ff;
+    font-size: 25px;
+    font-weight: 800;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+    text-decoration-color: #8c39ff;
+}
+
+/*INDEX-Titulo principal y descripcion*/
 
 .principal {
     background-image: url(../img/logo22.png);
@@ -80,25 +101,7 @@ h1 {
 
 
 }
-
-h2 {
-    text-align: center;
-    color: #0000009c;
-    font-size: 25px;
-    font-weight: bold;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-decoration: underline;
-    text-decoration-color: #0000009c;
-}
-
-.colorfondo {
-    background-color: #caaaf6;
-}
-
-.container {
-    border: 4px gray solid;
-    font-size: 20px;
-}
+/* General- Tratamientos destacados - Container */
 
 .tdestacados {
     text-align: center;
@@ -106,13 +109,6 @@ h2 {
     padding: 25px;
     margin: 0;
 }
-
-.sombra {
-    -webkit-box-shadow: 0px 0px 24px 2px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 0px 0px 24px 2px rgba(0, 0, 0, 0.75);
-    box-shadow: 0px 0px 24px 2px rgba(0, 0, 0, 0.75);
-}
-
 .tdestacados ul {
     list-style-type: none;
     padding: 0;
@@ -136,6 +132,47 @@ h2 {
     padding: 5px 15px;
     border-radius: 8px;
 }
+
+.colorfondo {
+    background-color: #caaaf6;
+}
+
+.container {
+    border: 4px gray solid;
+    font-size: 20px;
+}
+
+
+.sombra {
+    -webkit-box-shadow: 0px 0px 24px 2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 24px 2px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 24px 2px rgba(0, 0, 0, 0.75);
+}
+.container img {
+    height: 300px;
+    width: 300px;
+}
+
+/*INDEX- Elegirnos*/
+.elegirnos {
+
+    background-color: #caaaf6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.elegirnos p {
+    color: black;
+    font-size: 15px;
+    font-weight: 800;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 50px;
+
+}
+
+/*Tratamientos-Faciales - T.Destacados*/
 
 .tdestacados2 {
     background-image: url(../img/logo22.png);
@@ -185,14 +222,7 @@ h2 {
     text-decoration: none;
 }
 
-h3 {
-    color: #8c39ff;
-    font-size: 25px;
-    font-weight: 800;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-decoration: underline;
-    text-decoration-color: #8c39ff;
-}
+/*Tratamientos/Faciales/Corporales - Asesoramiento*/
 
 .asesoramiento {
     background-color: #caaaf6;
@@ -203,28 +233,40 @@ h3 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.elegirnos {
+/*Testimonios - mapa */
 
-    background-color: #caaaf6;
+.testimonios {
+    background-image: url(../img/logo22.png);
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.elegirnos p {
-    color: black;
+.testimonios p {
+
     font-size: 15px;
     font-weight: 800;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin: 50px;
-
 }
 
-.container img {
-    height: 300px;
-    width: 300px;
+.testimonios2 {
+    background-color: #caaaf6;
+    text-align: center;
 }
+
+.mapa {
+    text-align: center;
+    background-color: #caaaf6;
+}
+
+/*Nosotross - Quienes somos*/
 
 .somos p {
     color: black;
@@ -247,6 +289,8 @@ h3 {
     justify-content: center;
     align-items: center;
 }
+
+/*Nosotros-Galeria grid*/
 
 .galeria {
     background-color: #caaaf6;
@@ -287,6 +331,8 @@ h3 {
 
 }
 
+/*Contacto - Formulario */
+
 .contacto {
     text-align: center;
     background-image: url(../img/logo22.png);
@@ -298,37 +344,7 @@ h3 {
     background-color: white;
 }
 
-.testimonios {
-    background-image: url(../img/logo22.png);
-    width: 100%;
-    height: 400px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: auto;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.testimonios p {
-
-    font-size: 15px;
-    font-weight: 800;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.testimonios2 {
-    background-color: #caaaf6;
-    text-align: center;
-}
-
-.mapa {
-    text-align: center;
-    background-color: #caaaf6;
-}
-
+/*Footer general*/
 
 .logofooter {
     margin-right: 20px;
@@ -375,6 +391,8 @@ footer a {
 footer div:nth-child(2) {
     margin-left: auto;
 }
+
+/*Media Query*/
 
 @media screen and (max-width:545px) {
     header {

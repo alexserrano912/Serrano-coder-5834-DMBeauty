@@ -12,44 +12,36 @@ p::selection {
 
 /*General-Navbar*/
 
-header {
-    background-color: #9b53ff;
-    padding: 10px 30px;
-    display: flex;
-    flex-direction: initial;
-    justify-content: space-between;
-    align-items: center;
+header nav {
+    margin-left: auto;
+    flex-wrap: wrap;
 }
 
-header img {
-    width: 100px;
-    height: 100px;
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
-.navbar {
-    font-size: 20px;
+header nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: pink;
+    font-size: 15px;
     font-weight: 800;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding: 5px 20px;
-
+    padding: 1px 15px;
+    background-color: white;
+    border-radius: 5px;
 }
 
-.navbar-color {
-    background-color: #9b53ff;
+header nav ul li a:hover {
+    background-color: pink;
     color: white;
-}
-
-.menubajo-color {
-    display: block;
-    width: 100%;
-    padding: var(--bs-dropdown-item-padding-y) var(--bs-dropdown-item-padding-x);
-    clear: both;
-    color: #0000009c;
-    text-align: inherit;
-    text-decoration: none;
-    white-space: nowrap;
-    background-color: #9b53ff;
-    border: 0;
 }
 
 /*General-Titulos (h1,h2,h3)*/

@@ -1,0 +1,35 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p::selection {
+    background-color: blueviolet;
+    color: white;
+}
+
+// Variables
+$primary-color: #b68de7;
+$secondary-color: #caaaf6;
+$font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+$background-image: url(../img/logo22.png);
+$section-height: 400px;
+
+@mixin text-center {
+    text-align: center;
+    font-family: $font-family;
+}
+
+@mixin center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin centered {
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 80px;
+}

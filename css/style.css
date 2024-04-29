@@ -11,6 +11,19 @@ p::selection {
 }
 
 /*General-Navbar*/
+header {
+    background-color: #9b53ff;
+    padding: 10px 30px;
+    display: flex;
+    flex-direction: initial;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    width: 100px;
+    height: 100px;
+}
 
 header nav {
     margin-left: auto;
@@ -30,7 +43,7 @@ header nav ul li {
 
 header nav ul li a {
     text-decoration: none;
-    color: pink;
+    color: #9b53ff;
     font-size: 15px;
     font-weight: 800;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;

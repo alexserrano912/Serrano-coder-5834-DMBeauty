@@ -1,0 +1,403 @@
+h1 {
+    @include text-center;
+    text-decoration: underline;
+    text-decoration-color: darken($primary-color, 20%);
+    color: darken($primary-color, 20%);
+    font-size: 30px;
+    font-weight: 800;
+}
+
+h2 {
+    @include text-center;
+    color: #8039d5;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: #8039d5;
+}
+
+h3 {
+    @include text-center;
+    color: #8039d5;
+    font-size: 25px;
+    font-weight: 800;
+    text-decoration: underline;
+    text-decoration-color: #8039d5;
+}
+.navbar {
+    font-size: 20px;
+    font-weight: 800;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 5px 20px;
+
+}
+
+.menubajo-color {
+    display: block;
+    width: 100%;
+    padding: var(--bs-dropdown-item-padding-y) var(--bs-dropdown-item-padding-x);
+    clear: both;
+    color: #0000009c;
+    text-align: inherit;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: $primary-color;
+    border: 0;
+}
+
+
+.principal {
+    background-image: url('../img/logo22.png');
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    p {
+        color: black;
+        font-size: 25px;
+        font-weight: 500;
+        margin: 50px;
+        text-align: center;
+    }
+}
+
+.tdestacados {
+    @include text-center;
+    background: rgb(182,141,231);
+    background: linear-gradient(180deg, rgba(182,141,231,1) 0%, rgba(213,183,255,1) 50%, rgba(182,141,231,1) 100%);
+    padding: 25px;
+
+    ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        li {
+            margin: 5px;
+
+            a {
+                color: $primary-color;
+                font-size: 15px;
+                font-weight: 800;
+                text-decoration: none;
+                background-color: white;
+                padding: 5px 15px;
+                border-radius: 8px;
+
+                &:hover {
+                    background-color: pink;
+                    color: white;
+                }
+            }
+
+        }
+    }
+}
+
+.container {
+    border: 4px gray solid;
+    font-size: 20px;
+}
+
+.container img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.sombra {
+    box-shadow: 0px 0px 24px 2px rgba(0, 0, 0, 0.75);
+}
+
+.colorfondo {
+    background: rgb(182,141,231);
+    background: linear-gradient(180deg, rgba(182,141,231,1) 0%, rgba(213,183,255,1) 50%, rgba(182,141,231,1) 100%);
+}
+
+.elegirnos {
+    background: rgb(182,141,231);
+    background: linear-gradient(180deg, rgba(182,141,231,1) 0%, rgba(213,183,255,1) 50%, rgba(182,141,231,1) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    p {
+        @include text-center;
+        color: black;
+        font-size: 15px;
+        font-weight: 600px;
+        margin: 50px;
+    }
+}
+
+.tdestacados2 {
+    background-image: url(../img/logo22.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    font-weight: 800;
+    font-family: $font-family;
+    @include center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 400px;
+
+    h2 {
+        @include center;
+        font-weight: bold;
+        font-size: 25px;
+    }
+
+    p {
+        text-align: center;
+        margin: 5px 0;
+    }
+
+    .punto {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        color: white;
+
+        li {
+            background-color: darken($primary-color, 10%);
+            padding: 5px;
+            margin: 5px;
+            border-radius: 8px;
+
+            a {
+                color: white;
+                font-size: 15px;
+                font-weight: 800;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+.asesoramiento {
+    background: rgb(182,141,231);
+    background: linear-gradient(180deg, rgba(182,141,231,1) 0%, rgba(213,183,255,1) 50%, rgba(182,141,231,1) 100%);
+    @include center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 800;
+    font-family: $font-family;
+
+    h2 {
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    form {
+        width: 100%;
+
+        label {
+            display: block;
+            margin: 10px 0;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid $primary-color;
+        }
+
+        input[type="submit"],
+        input[type="reset"] {
+            background-color: $primary-color;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            border: none;
+            font-weight: bold;
+            cursor: pointer;
+
+            &:hover {
+                background-color: darken($primary-color, 10%);
+            }
+        }
+    }
+}
+
+.testimonios {
+    background-image: $background-image;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    background-color: white;
+    @include center;
+    flex-direction: column;
+    height: 400px;
+
+    h2 {
+        font-size: 25px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    p {
+        font-size: 15px;
+        font-weight: 800;
+        font-family: $font-family;
+        text-align: center;
+        margin: 5px 0;
+
+        a {
+            color: blue;
+            text-decoration: none;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+.testimonios2 {
+    background: rgb(182,141,231);
+    background: linear-gradient(180deg, rgba(182,141,231,1) 0%, rgba(213,183,255,1) 50%, rgba(182,141,231,1) 100%);
+    text-align: center;
+
+    img {
+        margin: 10px;
+        width: auto;
+        max-width: 90%;
+    }
+}
+
+.mapa {
+    text-align: center;
+    background: rgb(182,141,231);
+    background: linear-gradient(180deg, rgba(182,141,231,1) 0%, rgba(213,183,255,1) 50%, rgba(182,141,231,1) 100%);
+}
+
+.somos {
+    background-image: url(../img/logo22.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    background-color: white;
+    height: $section-height;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+
+    h2 {
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 20px;
+        color: #9b53ff;
+    }
+
+    p {
+        color: black;
+        font-size: 15px;
+        font-weight: 800;
+        font-family: $font-family;
+        text-align: center;
+    }
+}
+
+.galeria {
+    background: rgb(182,141,231);
+    background: linear-gradient(180deg, rgba(182,141,231,1) 0%, rgba(213,183,255,1) 50%, rgba(182,141,231,1) 100%);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 350px;
+    gap: 15px;
+
+    .item {
+        position: relative;
+        @include center;
+
+        h3 {
+            position: absolute;
+            bottom: 0;
+            background-color: #caaaf671;
+            width: 90%;
+            text-align: start;
+        }
+
+        img {
+            width: 90%;
+            height: 95%;
+            object-fit: cover;
+            box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.39);
+        }
+    }
+}
+
+.contacto {
+    text-align: center;
+    background-image: $background-image;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    height: 505px;
+    @include center;
+
+    form {
+        width: 60%;
+        margin: auto;
+
+        div {
+            margin: 10px 0;
+
+            label {
+                font-family: $font-family;
+                font-size: 14px;
+                font-weight: bold;
+            }
+
+            input,
+            textarea {
+                font-family: $font-family;
+                padding: 5px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+            }
+
+            textarea {
+                resize: none;
+            }
+        }
+
+        input[type="submit"],
+        input[type="reset"] {
+            font-family: $font-family;
+            padding: 8px 16px;
+            border: none;
+            background-color: #8c39ff;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover,
+        input[type="reset"]:hover {
+            background-color: pink;
+        }
+    }
+}
+
+.mapa {
+    text-align: center;
+    padding: 20px;
+    background: rgb(182,141,231);
+    background: linear-gradient(180deg, rgba(182,141,231,1) 0%, rgba(213,183,255,1) 50%, rgba(182,141,231,1) 100%);
+}

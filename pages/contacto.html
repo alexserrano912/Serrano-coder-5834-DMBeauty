@@ -75,34 +75,33 @@
         </nav>
     </header>
     <main>
-        <section class="contacto">
-            <form action="#" method="post" enctype="multipart/form-data">
-                <div>
+        <section>
+        <div class="container mt-3 asesoramiento">
+            <form action="/action_page.php">
+                <div class="mb-3 mt-3">
                     <label for="nombre">Nombre:</label>
-                    <input type="text" name="nombre" id="nombre">
+                    <input type="text" class="form-control" id="nombre" placeholder="Ingrese Su Nombre" name="nombre">
                 </div>
-                <div>
-                    <label for="apellido">Apellido</label>
-                    <input type="text" id="apellido">
+                <div class="mb-3">
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" class="form-control" id="apellidod" placeholder="Ingrese Su Apellido"
+                        name="apellido">
                 </div>
-                <div>
-                    <label for="email">Email</label>
-                    <input type="email" id="email">
+                <div class="mb-3 mt-3">
+                    <label for="email" class="form-label">Email:</label>
+                    <input type="email" class="form-control" id="email" placeholder="Ingrese Su Email" name="email">
                 </div>
-                <div>
-                    <label for="telefono">Telefono</label>
-                    <input type="tel" id="telefono">
+                <div class="mb-3 mt-3">
+                    <label for="telefono">Telefono:</label>
+                    <input type="tel" class="form-control" id="telefono" placeholder="Ingrese Su Telefono"
+                        name="Telefono">
                 </div>
-                <div>
-                    <label for="comentario">Escribi tu Comentario</label>
-                    <textarea name="comentario" id="comentario" cols="30" rows="10"></textarea>
-                </div>
-                <div>
-                    <input type="submit">
-                    <input type="reset">
-                </div>
+                <label for="comentario">Escriba su Consulta:</label>
+                <textarea class="form-control" rows="5" id="comment" name="text"></textarea>
 
+                <button type="enviar" class="btn btn-primary">Enviar</button>
             </form>
+        </div>
 
         </section>
         <section class="mapa">

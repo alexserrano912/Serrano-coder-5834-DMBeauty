@@ -97,7 +97,7 @@
             <section class="container">
                 <div class="row d-flex align-items-center" data-aos="fade-up">
                     <div class="col text-center">
-                        <img src="../img/dermaplaning.jpg" alt="Dermaplaning" class="mx-auto d-block sombra">
+                        <img src="../img/dermaplaning.jpg" alt="Dermaplaning" class="mx-auto d-block sombraizq">
                     </div>
                     <div class="col text-center">
                         <H3 id="dermaplaning">Dermaplaning</H3>
@@ -119,14 +119,14 @@
                             remodelado
                             de la piel con el que se mejoran diversas alteraciones cutáneas.</p>
                     </div>
-                    <img src="../img/peelingintenso.png" alt="Peeling Intenso" class="mx-auto d-block sombra">
+                    <img src="../img/peelingintenso.png" alt="Peeling Intenso" class="mx-auto d-block sombrader">
                 </div>
                 <div>
             </section>
             <section class="container">
                 <div class="row d-flex align-items-center" data-aos="fade-right">
                     <div class="col text-center">
-                        <img src="../img/limpiezaprofunda.jpg" alt="Limpieza Profunda" class="mx-auto d-block sombra">
+                        <img src="../img/limpiezaprofunda.jpg" alt="Limpieza Profunda" class="mx-auto d-block sombraizq">
                     </div>
                     <div class="col text-center">
                         <h3 id="lprofunda">Limpieza Profunda</h3>
@@ -146,14 +146,14 @@
                             alisarlas y
                             peinarlas de forma permanente.</p>
                     </div>
-                    <img src="../img/laminadodecejas.jpg" alt="Laminado de Cejas" class="mx-auto d-block sombra">
+                    <img src="../img/laminadodecejas.jpg" alt="Laminado de Cejas" class="mx-auto d-block sombrader">
                 </div>
                 <div>
             </section>
             <section class="container">
                 <div class="row d-flex align-items-center" data-aos="fade-right">
                     <div class="col text-center">
-                        <img src="../img/antiedad.jpg" alt="antiedad" class="mx-auto d-block sombra">
+                        <img src="../img/antiedad.jpg" alt="antiedad" class="mx-auto d-block sombraizq">
                     </div>
                     <div class="col text-center">
                         <h3 id="antiedad">Anti-Edad</h3>
@@ -174,37 +174,42 @@
                             medias o largas, rectas o sin forma, y deseen conseguir un resultado natural, ¡es la opción
                             perfecta!</p>
                     </div>
-                    <img src="../img/liftingdepestanas.jpg" alt="Lifting de Pestañas" class="mx-auto d-block sombra">
+                    <img src="../img/liftingdepestanas.jpg" alt="Lifting de Pestañas" class="mx-auto d-block sombrader">
                 </div>
                 </div>
             </section>
             <!--SOLICITA ASESORAMIENTO-->
-            <section class="asesoramiento">
-                <h2>Solicita Asesoramiento</h2>
-                <form action="#" method="POST" enctype="multipart/form-data"></form>
-                <div>
-                    <label for="nombre">Nombre:</label>
-                    <input type="text" name="nombre" id="nombre">
-                </div>
-                <div>
-                    <label for="email">Email:</label>
-                    <input type="email" name="email" id="email" required>
-                </div>
-                <div>
-                    <label for="telefono">Teléfono:</label>
-                    <input type="tel" name="telefono" id="telefono">
-                </div>
-                <div>
-                    <label for="mensaje">Mensaje:</label>
-                    <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
-                </div>
-                <div>
-                    <input type="submit">
-                    <input type="reset">
+            <section>
+                <div class="container mt-3 asesoramiento">
+                    <form action="/action_page.php">
+                        <div class="mb-3 mt-3">
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" class="form-control" id="nombre" placeholder="Ingrese Su Nombre"
+                                name="nombre">
+                        </div>
+                        <div class="mb-3">
+                            <label for="apellido">Apellido:</label>
+                            <input type="text" class="form-control" id="apellidod" placeholder="Ingrese Su Apellido"
+                                name="apellido">
+                        </div>
+                        <div class="mb-3 mt-3">
+                            <label for="email" class="form-label">Email:</label>
+                            <input type="email" class="form-control" id="email" placeholder="Ingrese Su Email"
+                                name="email">
+                        </div>
+                        <div class="mb-3 mt-3">
+                            <label for="telefono">Telefono:</label>
+                            <input type="tel" class="form-control" id="telefono" placeholder="Ingrese Su Telefono"
+                                name="Telefono">
+                        </div>
+                        <label for="comentario">Escriba su Consulta:</label>
+                        <textarea class="form-control" rows="5" id="comment" name="text"></textarea>
+
+                        <button type="enviar" class="btn btn-primary">Enviar</button>
+                    </form>
                 </div>
 
             </section>
-
     </main>
     <!--FOOTER-->
     <footer id="redes">

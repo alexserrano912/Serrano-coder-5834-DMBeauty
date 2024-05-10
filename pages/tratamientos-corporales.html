@@ -23,7 +23,7 @@
         años de experiencia y tecnología de punta garantizan resultados eficaces. Priorizamos tu salud y belleza
         en nuestro centro de Devoto, con descuentos especiales disponibles. No esperes al verano, comienza a
         cuidarte ahora mismo." content="">
-    <!--keywords--> 
+    <!--keywords-->
     <meta name="keywords"
         content="estetica, corporal, facial, criolipolisis, presoterapia, radiofrecuencia, limpieza profunda, laminado de cejas, anti edad, modelacion corporal, lifting de pestañas, ondas rusas, masajes reductores">
     <title>DM Beauty Studio | Estetica Corporal y Facial</title>
@@ -95,7 +95,7 @@
             <section class="container">
                 <div class="row d-flex align-items-center" data-aos="fade-up">
                     <div class="col text-center">
-                        <img src="../img/criolipolisis.jpg" alt="Criolipolisis" class="mx-auto d-block sombra">
+                        <img src="../img/criolipolisis.jpg" alt="Criolipolisis" class="mx-auto d-block sombraizq">
                     </div>
                     <div class="col text-center">
                         <H3 id="criolipolisis">Criolipolisis</H3>
@@ -118,14 +118,14 @@
                             circulación
                             venosa.</p>
                     </div>
-                    <img src="../img/presoterapia.jpg" alt="Presoterapia" class="mx-auto d-block sombra">
+                    <img src="../img/presoterapia.jpg" alt="Presoterapia" class="mx-auto d-block sombrader">
                 </div>
                 <div>
             </section>
             <section class="container">
                 <div class="row d-flex align-items-center" data-aos="fade-right">
                     <div class="col text-center">
-                        <img src="../img/masajesreductores.jpg" alt="Masajes Reductores" class="mx-auto d-block sombra">
+                        <img src="../img/masajesreductores.jpg" alt="Masajes Reductores" class="mx-auto d-block sombraizq">
                     </div>
                     <div class="col text-center">
                         <h3 id="masajesreductores">Masajes Reductores</h3>
@@ -149,37 +149,42 @@
                             como consecuencia, elimina la retención de líquidos en la zona tratada y aumenta la
                             circulación.</p>
                     </div>
-                    <img src="../img/ondasrusas.jpg" alt="Ondas Rusas" class="mx-auto d-block sombra">
+                    <img src="../img/ondasrusas.jpg" alt="Ondas Rusas" class="mx-auto d-block sombrader">
                 </div>
                 </div>
             </section>
             <!--SOLICITA ASESORAMIENTO-->
-            <section class="asesoramiento">
-                <h2>Solicita Asesoramiento</h2>
-                <form action="#" method="POST" enctype="multipart/form-data"></form>
-                <div>
-                    <label for="nombre">Nombre:</label>
-                    <input type="text" name="nombre" id="nombre">
-                </div>
-                <div>
-                    <label for="email">Email:</label>
-                    <input type="email" name="email" id="email" required>
-                </div>
-                <div>
-                    <label for="telefono">Teléfono:</label>
-                    <input type="tel" name="telefono" id="telefono">
-                </div>
-                <div>
-                    <label for="mensaje">Mensaje:</label>
-                    <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
-                </div>
-                <div>
-                    <input type="submit">
-                    <input type="reset">
+            <section>
+                <div class="container mt-3 asesoramiento">
+                    <form action="/action_page.php">
+                        <div class="mb-3 mt-3">
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" class="form-control" id="nombre" placeholder="Ingrese Su Nombre"
+                                name="nombre">
+                        </div>
+                        <div class="mb-3">
+                            <label for="apellido">Apellido:</label>
+                            <input type="text" class="form-control" id="apellidod" placeholder="Ingrese Su Apellido"
+                                name="apellido">
+                        </div>
+                        <div class="mb-3 mt-3">
+                            <label for="email" class="form-label">Email:</label>
+                            <input type="email" class="form-control" id="email" placeholder="Ingrese Su Email"
+                                name="email">
+                        </div>
+                        <div class="mb-3 mt-3">
+                            <label for="telefono">Telefono:</label>
+                            <input type="tel" class="form-control" id="telefono" placeholder="Ingrese Su Telefono"
+                                name="Telefono">
+                        </div>
+                        <label for="comentario">Escriba su Consulta:</label>
+                        <textarea class="form-control" rows="5" id="comment" name="text"></textarea>
+
+                        <button type="enviar" class="btn btn-primary">Enviar</button>
+                    </form>
                 </div>
 
             </section>
-
     </main>
     <!--FOOTER-->
     <footer id="redes">

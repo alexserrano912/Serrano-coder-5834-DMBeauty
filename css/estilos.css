@@ -109,8 +109,11 @@ h3 {
   height: 300px;
   object-fit: cover; }
 
-.sombra {
-  box-shadow: 0px 0px 24px 2px rgba(0, 0, 0, 0.75); }
+.sombraizq {
+  box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px; }
+
+.sombrader {
+  box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px; }
 
 .colorfondo {
   background: #b68de7;
@@ -172,45 +175,23 @@ h3 {
         font-weight: 800;
         text-decoration: none; }
 
+.container {
+  border: none; }
+
 .asesoramiento {
-  background: #b68de7;
-  background: linear-gradient(180deg, #b68de7 0%, #d5b7ff 50%, #b68de7 100%);
+  background-color: white;
+  background-image: url(../img/logo22.png);
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-  text-align: center;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 800;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif; }
-  .asesoramiento h2 {
-    font-size: 25px;
-    font-weight: bold; }
   .asesoramiento form {
-    width: 100%; }
+    width: 40%;
+    padding: 20px; }
     .asesoramiento form label {
-      display: block;
-      margin: 10px 0; }
-    .asesoramiento form input[type="text"],
-    .asesoramiento form input[type="email"],
-    .asesoramiento form input[type="tel"],
-    .asesoramiento form textarea {
-      width: 100%;
-      padding: 10px;
-      border-radius: 5px;
-      border: 1px solid #b68de7; }
-    .asesoramiento form input[type="submit"],
-    .asesoramiento form input[type="reset"] {
-      background-color: #b68de7;
-      color: white;
-      padding: 10px 20px;
-      border-radius: 5px;
-      border: none;
-      font-weight: bold;
-      cursor: pointer; }
-      .asesoramiento form input[type="submit"]:hover,
-      .asesoramiento form input[type="reset"]:hover {
-        background-color: #9b63de; }
+      display: block; }
 
 .testimonios {
   background-image: url(../img/logo22.png);
@@ -245,7 +226,8 @@ h3 {
   text-align: center; }
   .testimonios2 img {
     margin: 10px;
-    width: auto;
+    width: 500px;
+    height: 450px;
     max-width: 90%; }
 
 .mapa {
@@ -300,7 +282,7 @@ h3 {
       width: 90%;
       height: 95%;
       object-fit: cover;
-      box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.39); }
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; }
 
 .contacto {
   text-align: center;

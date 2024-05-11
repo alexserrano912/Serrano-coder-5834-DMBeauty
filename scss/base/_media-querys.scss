@@ -48,6 +48,21 @@
     }
 
 }
+@media screen and (max-width:600px) {
+    .container img {
+        height: 150px;
+        width: 150px;
+    }
+
+}
+
+@media screen and (max-width:450px) {
+    .container img {
+        height: 100px;
+        width: 100px;
+    }
+
+}
 
 @media screen and (max-width:500px) {
     footer {

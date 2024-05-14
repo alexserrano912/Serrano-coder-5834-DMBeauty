@@ -12,43 +12,149 @@
 
 }
 
-@media screen and (max-width:500px) {
-    .tdestacados ul {
-        display: flex;
+@media (max-width: 900px) {
+    .principal h1 {
+        font-size: 26px;
+    }
+    .principal p {
+        font-size: 20px;
+    }
 
+
+    .tdestacados h2 {
+        font-size: 20px;
+    }
+
+    .container-fluid.colorfondo .container .col.text-center h3,
+    .container-fluid.colorfondo .container .col.text-center p {
+        font-size: 16px;
+    }
+
+    .container-fluid.colorfondo .container .col.text-center img {
+        width: 100%;
+        height: auto;
     }
 }
 
-@media screen and (max-width:650px) {
-    .tdestacados1 {
-        overflow: auto;
+@media (max-width: 600px) {
+    .principal h1 {
+        font-size: 24px;
+    }
+    .principal p {
+        font-size: 17px;
     }
 
+
+    .tdestacados h2 {
+        font-size: 16px;
+    }
+
+    .container-fluid.colorfondo .container .col.text-center h3,
+    .container-fluid.colorfondo .container .col.text-center p {
+        font-size: 14px;
+    }
+
+    .container-fluid.colorfondo .container .col.text-center img {
+        width: 100%;
+        height: auto;
+    }
 }
 
-@media screen and (max-width:900px) {
-    .tdestacados1 img {
+@media (max-width: 450px) {
+    .principal h1 {
+        font-size: 22px;
+
+    }
+
+    .principal p {
+        font-size: 13px;
+    }
+
+    .tdestacados h2 {
+        font-size: 12px;
+    }
+
+    .container-fluid.colorfondo .container .col.text-center h3,
+    .container-fluid.colorfondo .container .col.text-center p {
+        font-size: 12px;
+    }
+
+    .container-fluid.colorfondo .container .col.text-center img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 900px) {
+    .tdestacados2 h2 {
+        font-size: 24px;
+    }
+
+    .tdestacados2 p {
+        font-size: 16px;
+    }
+
+    .container-fluid.colorfondo .container .col.text-center h3,
+    .container-fluid.colorfondo .container .col.text-center p {
+        font-size: 14px;
+    }
+
+    .container-fluid.colorfondo .container .col.text-center img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 600px) {
+    .tdestacados2 h2 {
+        font-size: 20px;
+    }
+
+    .tdestacados2 p {
+        font-size: 14px;
+    }
+
+    .container-fluid.colorfondo .container .col.text-center h3,
+    .container-fluid.colorfondo .container .col.text-center p {
+        font-size: 12px;
+    }
+
+    .container-fluid.colorfondo .container .col.text-center img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+@media (max-width: 450px) {
+    .tdestacados2 h2 {
+        font-size: 16px;
+    }
+
+    .tdestacados2 p {
+        font-size: 12px;
+    }
+
+    .container-fluid.colorfondo .container .col.text-center h3,
+    .container-fluid.colorfondo .container .col.text-center p {
+        font-size: 10px;
+    }
+
+    .container-fluid.colorfondo .container .col.text-center img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .container img {
         height: 200px;
         width: 200px;
     }
-}
-
-@media screen and (max-width:600px) {
-    .tdestacados1 img {
-        height: 150px;
-        width: 150px;
-    }
 
 }
 
 @media screen and (max-width:450px) {
-    .tdestacados1 img {
-        height: 100px;
-        width: 100px;
-    }
-
-}
-@media screen and (max-width:600px) {
     .container img {
         height: 150px;
         width: 150px;
@@ -56,25 +162,116 @@
 
 }
 
-@media screen and (max-width:450px) {
-    .container img {
-        height: 100px;
-        width: 100px;
+@media (max-width: 900px) {
+    .tdestacados2 h2 {
+        font-size: 24px;
     }
 
+    .tdestacados2 p {
+        font-size: 16px;
+    }
+
+    .container-fluid.colorfondo .container .col.text-center h3,
+    .container-fluid.colorfondo .container .col.text-center p {
+        font-size: 14px;
+    }
+
+    .container-fluid.colorfondo .container .col.text-center img {
+        width: 100%;
+        height: auto;
+    }
 }
 
-@media screen and (max-width:500px) {
-    footer {
+@media (max-width: 600px) {
+    .tdestacados2 h2 {
+        font-size: 20px;
+    }
+
+    .tdestacados2 p {
+        font-size: 14px;
+    }
+
+    .container-fluid.colorfondo .container .col.text-center h3,
+    .container-fluid.colorfondo .container .col.text-center p {
+        font-size: 12px;
+    }
+
+    .container-fluid.colorfondo .container .col.text-center img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+@media (max-width: 450px) {
+    .tdestacados2 h2 {
+        font-size: 16px;
+    }
+
+    .tdestacados2 p {
+        font-size: 12px;
+    }
+
+    .container-fluid.colorfondo .container .col.text-center h3,
+    .container-fluid.colorfondo .container .col.text-center p {
+        font-size: 10px;
+    }
+
+    .container-fluid.colorfondo .container .col.text-center img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+@media (max-width: 900px) {
+    .testimonios h2 {
+        font-size: 24px;
+    }
+
+    .testimonios p {
+        font-size: 16px;
+    }
+
+    .testimonios2 {
         display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 
+    .testimonios2 img {
+        width: 45%;
+        margin: 0.5%;
     }
 }
 
-@media screen and (max-width:455px) {
-    .centrado {
-        margin: 0;
+@media (max-width: 600px) {
+    .testimonios h2 {
+        font-size: 20px;
+    }
 
+    .testimonios p {
+        font-size: 14px;
+    }
+
+    .testimonios2 img {
+        width: 80%;
+        margin: 10px auto;
+    }
+}
+
+@media (max-width: 450px) {
+    .testimonios h2 {
+        font-size: 16px;
+    }
+
+    .testimonios p {
+        font-size: 12px;
+    }
+
+    .testimonios2 img {
+        width: 90%;
+        margin: 10px auto;
     }
 }
 
@@ -134,4 +331,33 @@
         height: 50%;
     }
 
+}
+
+@media (max-width: 900px) {
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer .centrado {
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    footer .centrado {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 450px) {
+    footer .logofooter img {
+        width: 80%;
+    }
+
+    footer .centrado {
+        margin-top: 5px;
+    }
 }

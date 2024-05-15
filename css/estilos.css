@@ -101,13 +101,11 @@ h3 {
           color: white; }
 
 .container {
-  border: 4px gray solid;
   font-size: 20px; }
 
 .container img {
   width: 300px;
-  height: 300px;
-  object-fit: cover; }
+  height: 300px; }
 
 .sombraizq {
   box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px; }
@@ -552,23 +550,54 @@ footer div:nth-child(2) {
   .testimonios2 img {
     display: flex; } }
 
-@media screen and (max-width: 1000px) {
-  .galeria {
+.galeria {
+  background: #b68de7;
+  background: linear-gradient(180deg, #b68de7 0%, #d5b7ff 50%, #b68de7 100%);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: 350px;
+  gap: 15px; }
+  .galeria .item {
+    position: relative;
     display: flex;
-    flex-direction: column; }
-  .galeria img {
-    width: 100%;
-    height: auto; } }
-
-@media screen and (max-width: 550px) {
-  .galeria div img {
-    height: 300px;
-    width: 300px; } }
-
-@media screen and (max-width: 550px) {
-  .galeria h3 {
-    width: 50%;
-    height: 50%; } }
+    justify-content: center;
+    align-items: center; }
+    .galeria .item h3 {
+      position: absolute;
+      bottom: 0;
+      background-color: #caaaf671;
+      width: 90%;
+      text-align: start; }
+    .galeria .item img {
+      width: 90%;
+      height: 95%;
+      object-fit: cover;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; }
+  @media (max-width: 900px) {
+    .galeria {
+      grid-template-columns: repeat(2, 1fr);
+      grid-auto-rows: 300px; }
+      .galeria .item img {
+        width: 100%;
+        height: 100%; } }
+  @media (max-width: 600px) {
+    .galeria {
+      grid-template-columns: 1fr;
+      grid-auto-rows: 250px; }
+      .galeria .item img {
+        width: 100%;
+        height: 100%; }
+      .galeria .item h3 {
+        width: 100%; } }
+  @media (max-width: 450px) {
+    .galeria {
+      grid-template-columns: 1fr;
+      grid-auto-rows: 200px; }
+      .galeria .item img {
+        width: 100%;
+        height: 100%; }
+      .galeria .item h3 {
+        width: 100%; } }
 
 @media (max-width: 900px) {
   footer {

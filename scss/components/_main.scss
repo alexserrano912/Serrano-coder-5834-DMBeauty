@@ -152,6 +152,7 @@ h3 {
     flex-direction: column;
     flex-wrap: wrap;
     height: 400px;
+    text-align: center;
 
     h2 {
         @include center;
@@ -160,7 +161,6 @@ h3 {
     }
 
     p {
-        text-align: center;
         margin: 5px 0;
     }
 

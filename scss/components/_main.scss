@@ -193,6 +193,8 @@ h3 {
     background-color: white;
     background-image: $background-image;
     display: flex;
+    background-size: cover;
+    background-position: center; 
     justify-content: center;
     align-items: center;
     font-size: 20px;

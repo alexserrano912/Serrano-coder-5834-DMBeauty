@@ -16,6 +16,7 @@
     .principal h1 {
         font-size: 26px;
     }
+
     .principal p {
         font-size: 20px;
     }
@@ -40,6 +41,7 @@
     .principal h1 {
         font-size: 24px;
     }
+
     .principal p {
         font-size: 17px;
     }
@@ -372,7 +374,29 @@
     }
 }
 
+@media (max-width: 900px) {
+    .asesoramiento {
+        background-image: $background-image;
+        background-size: cover; // Asegura que la imagen de fondo cubra el contenedor
+        background-position: center; // Centra la imagen de fondo
+    }
+}
 
+@media (max-width: 600px) {
+    .asesoramiento {
+        background-image: $background-image;
+        background-size: cover; // Asegura que la imagen de fondo cubra el contenedor
+        background-position: center; // Centra la imagen de fondo
+    }
+}
+
+@media (max-width: 450px) {
+    .asesoramiento {
+        background-image: $background-image;
+        background-size: cover; // Asegura que la imagen de fondo cubra el contenedor
+        background-position: center; // Centra la imagen de fondo
+    }
+}
 @media (max-width: 900px) {
     footer {
         display: flex;

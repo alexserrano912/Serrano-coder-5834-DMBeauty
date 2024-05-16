@@ -188,12 +188,17 @@ h3 {
   align-items: center;
   font-size: 20px;
   font-weight: 800;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif; }
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #b68de7; }
   .asesoramiento form {
     width: 100%;
     padding: 100px; }
     .asesoramiento form label {
       display: block; }
+  .asesoramiento .btn {
+    background-color: #b68de7;
+    padding: 10px 20px;
+    border: none; }
 
 .testimonios {
   background-image: url(../img/logo22.png);
